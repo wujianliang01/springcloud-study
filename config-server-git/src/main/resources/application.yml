@@ -1,0 +1,22 @@
+
+spring:
+
+  application:
+
+    name: config-server
+
+  cloud:
+
+    config:
+
+      server:
+
+        git:
+
+          uri: https://gitee.com/jianliangwu/spring-cloud-config
+        # username:
+        # password:
+
+server:
+
+  port: 2103

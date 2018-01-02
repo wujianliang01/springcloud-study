@@ -12,6 +12,10 @@
         <module>eureka-server</module>
         <module>eureka-client</module>
         <module>eureka-consumer</module>
+        <module>eureka-consumer-ribbon</module>
+        <module>eureka-consumer-feign</module>
+        <module>config-server-git</module>
+        <module>config-client</module>
     </modules>
 
     <parent>
