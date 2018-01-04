@@ -1,0 +1,17 @@
+    spring:
+
+      application:
+
+        name: api-gateway
+
+    server:
+
+      port: 1001
+
+    eureka:
+
+      client:
+
+        serviceUrl:
+
+          defaultZone: http://eureka.didispace.com/eureka/
