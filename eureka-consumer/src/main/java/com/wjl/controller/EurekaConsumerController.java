@@ -25,8 +25,8 @@ public class EurekaConsumerController {
 
         System.out.println(url);
 
-//        return restTemplate.getForObject(url, String.class);
-        return url;
+        return restTemplate.getForObject(url, String.class);
+//        return url;
     }
 
 }
