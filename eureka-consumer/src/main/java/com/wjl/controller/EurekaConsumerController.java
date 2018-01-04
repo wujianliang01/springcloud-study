@@ -17,11 +17,11 @@ public class EurekaConsumerController {
     private RestTemplate restTemplate;
 
     @GetMapping("/consumer")
-    public String getEurekaConsumerInfo(){
+    public String getEurekaConsumerInfo() {
 
         ServiceInstance instance = loadBalancerClient.choose("eureka-client");
 
-        String url = "http://"+instance.getHost() +":"+ instance.getPort() +"/disconver";
+        String url = "http://" + instance.getHost() + ":" + instance.getPort() + "/disconver";
 
         System.out.println(url);
 

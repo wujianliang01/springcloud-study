@@ -17,6 +17,6 @@ public class EurekaApplication {
         // 没有引入上面的包使用下面的方式进行启动
 //        new SpringApplicationBuilder(EurekaApplication.class).web(true).run(args);
 
-        System.out.println("EurekaApplication Start Success...");
+        System.out.println ("EurekaApplication  Start Success...");
     }
 }

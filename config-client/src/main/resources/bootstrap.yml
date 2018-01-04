@@ -1,0 +1,20 @@
+
+spring:
+
+  application:
+
+    name: config-client
+
+  cloud:
+
+    config:
+
+      uri: http://localhost:2103/
+
+      profile: default
+
+      label: master
+
+server:
+
+  port: 2104
