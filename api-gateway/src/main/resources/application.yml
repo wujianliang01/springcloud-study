@@ -6,7 +6,7 @@
 
     server:
 
-      port: 1001
+      port: 2016
 
     eureka:
 
@@ -14,4 +14,4 @@
 
         serviceUrl:
 
-          defaultZone: http://eureka.didispace.com/eureka/
+          defaultZone: http://localhost:1001/eureka/
