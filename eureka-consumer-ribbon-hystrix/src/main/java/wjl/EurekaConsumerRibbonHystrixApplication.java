@@ -19,7 +19,7 @@ public class EurekaConsumerRibbonHystrixApplication {
 
 //        SpringApplication.run(EurekaConsumerApplication.class,args);
           new SpringApplicationBuilder(EurekaConsumerRibbonHystrixApplication.class).web(true).run(args);
-        System.out.println("EurekaConsumerRibbonHystrixApplication Start Success...");
+          System.out.println("EurekaConsumerRibbonHystrixApplication Start Success...");
 
     }
 }
